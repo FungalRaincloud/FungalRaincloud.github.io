@@ -1,1 +1,3 @@
-ECHO is on.
+_site
+.sass-cache
+.jekyll-metadata
