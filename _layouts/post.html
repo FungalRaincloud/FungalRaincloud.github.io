@@ -2,3 +2,7 @@
 layout: default
 ---
 {{ content }}
+<p>Tags: {% for tag in page.tags %}
+<a href="{{tag}}">{{tag}}{%if tag != page.tags.last %},{%endif%} </a>
+{% endfor %}
+</p>

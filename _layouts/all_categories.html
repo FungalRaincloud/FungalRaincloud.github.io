@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<h1>Categories</h1>
+{% for category in site.categories %}
+    <h3><a href={{site.baseurl}}/categories/{{category | first | downcase | replace: ' ', '_'}}>{{ category | first }}</a></h3>
+{% endfor %}
