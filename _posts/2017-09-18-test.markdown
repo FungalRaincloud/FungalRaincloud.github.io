@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Good things to come."
-date:   2017-09-14 14:30:49 -0400
+date:   2017-09-18 14:30:49 -0400
 category: "General Info"
 permalink: "and-so-it-begins"
 tags: 'general'
