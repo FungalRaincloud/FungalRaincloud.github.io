@@ -8,4 +8,4 @@ tags: 'general'
 description: >
   An intro post
 ---
-At some point, I'll have a whole lot of free time, and I'll end up adding all kinds of content to this blog. For now, though, it's more of a landing page/placeholder, and a place for me to play around with the GitHub Pages project.
+At some point, I'll have a whole lot of free time, and I'll end up adding all kinds of content to this blog. For now, though, it's more of a landing page/placeholder, and a place for me to play around with GitHub Pages.
