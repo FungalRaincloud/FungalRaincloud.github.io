@@ -19,11 +19,12 @@ description: > # this means to ignore newlines until "baseurl:"
         Software Engineer, with an interest in machine learning,
         artificial intelligence, cryptography, and good coffee.
 
-        Check me out on twitter - {{ site.twitter_username }}
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://giveme.coffee" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: FungalRaincloud
-github_username:  FungalRaincloud
+social-network-links:
+        twitter: FungalRaincloud
+        github:  FungalRaincloud
+        email:   "Andrew@giveme.coffee"
 
 # Build settings
 markdown: kramdown
