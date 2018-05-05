@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,16 +23,16 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 	<ul>
 		{% if site.github.is_user_page %}
-		<li><a href="{{ site.github.owner_url }}"><i class="fa fa-github"></i> GitHub</a></li>
+		<li><a href="{{ site.github.owner_url }}"><i class="fab fa-github"></i> GitHub</a></li>
 		{% endif %}
 		{% if site.hn_username %}
-		<li><a href="https://news.ycombinator.com/{{ site.hn_username }}"><i class="fa fa-hacker-news"></i> HN</a></li>
+		<li><a href="https://news.ycombinator.com/{{ site.hn_username }}"><i class="fab fa-hacker-news"></i> HN</a></li>
 		{% endif %}
 		{% if site.twitter_username %}
-		<li><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i> Twitter</a></li>
+		<li><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i> Twitter</a></li>
 		{% endif %}
 		{% if site.linkedin_username %}
-		<li><a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+		<li><a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
 		{% endif %}
 	</ul>
 
