@@ -26,9 +26,19 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
-        {% if site.github.is_user_page %}
-	<p class="view"><a href="{{ site.github.owner_url }}">GitHub</a> - <a href="{{ site.twitter }}">Twitter</a></p>
-        {% endif %}
+	<ul>
+		{% if site.twitter %}
+		<li><a href="https://twitter.com/{{ site.twitter }}" ><i class="fa fa-twitter"></i> Twitter</a></li>
+		{% endif %}
+		{% if site.github.is_user_page %}
+		<li><a href="{{ site.github.owner_url }}"><i class="fa fa-github"></i> GitHub</a></li>
+		{% endif %}
+		{% if site.linkedin %}
+		<li><a href="https://linkedin.com/in/{{ site.twitter }}"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+		{% endif %}
+	</ul>
+
+
 
         {% if site.show_downloads %}
         <ul>
