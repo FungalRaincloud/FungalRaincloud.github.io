@@ -1,0 +1,7 @@
+---
+---
+@import "{{ site.theme }}"
+
+.social-media-links {
+	background-color: red;
+}
