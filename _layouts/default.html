@@ -12,9 +12,6 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       <ul class="social-links">
-        {% if site.github.is_user_page %}
-          <li><a href="{{ site.github.owner_url }}"><i class="fab fa-github"></i> GitHub</a></li>
-        {% endif %}
         {% if site.hn_username %}
           <li><a href="//news.ycombinator.com/user?id={{ site.hn_username }}"><i class="fab fa-hacker-news"></i> HN</a></li>
         {% endif %}
@@ -42,7 +39,7 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
+        {% if site.github.is_user_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme modified from <a href="//github.com/orderedlist">orderedlist</a></small></p>
