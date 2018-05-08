@@ -3,6 +3,5 @@
 @import "{{ site.theme }}";
 
 ul.social-links {
-    all: revert;
-    color: red;
+    color: red !important;
 }
